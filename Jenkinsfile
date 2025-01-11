@@ -15,7 +15,7 @@ pipeline {
 
                 // Clone the Git repository
                 git branch: 'main',
-                    url: 'https://github.com/vaib-jais/devops-proj_python_RestAPI_application.git'
+                    url: 'https://github.com/vaibhav-jais/devops-proj_python_RestAPI_application.git'
 
                 sh "ls -lart"
             }
